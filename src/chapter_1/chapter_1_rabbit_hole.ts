@@ -3,9 +3,15 @@ import { meetTheCheshireCat } from '../chapter_2/chapter_2_cheshire_cat';
 import { clear, print, askQuestion } from '../ui/console';
 import { parseHoleInput } from '../ui/parse_input';
 import { Hole, HOLES } from './chapter_1.types';
+import { extra } from '../extra/extra';
+
+
+
 
 export function enterTheRabbitHole(name: string) {
 	clear(false);
+   
+	   
 	print('------------------------');
 	print(`🥳 Welcome ${name}! 🥳`);
 	print('------------------------');

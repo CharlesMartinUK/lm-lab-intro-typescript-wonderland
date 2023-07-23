@@ -26,3 +26,4 @@ const reader = readline.createInterface({
 export function askQuestion(question: string, callback: (arg: string) => void) {
 	reader.question(`❓ ${question} 👉 `, callback);
 }
+
