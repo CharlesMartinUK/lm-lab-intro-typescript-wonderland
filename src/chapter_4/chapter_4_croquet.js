@@ -29,7 +29,7 @@ function playCroquet() {
         }
     };
     // 👉 FIXME ❌ These parameters to hit() aren't right!
-    if (game && game.hit && game.hit(2468, 8642)) {
+    if (game && game.hit && game.hit("Hedgehog", "Flamingo")) {
         (0, console_1.print)('🏆 Success! You scored! 🏆');
         (0, console_1.print)('Time to chat with the queen...');
         return (0, console_1.askQuestion)('Press ENTER to continue! ', chapter_5_queen_of_hearts_1.meetTheQueen);
