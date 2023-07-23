@@ -9,7 +9,7 @@ function meetTheQueen() {
     (0, console_1.clear)(true);
     (0, console_1.print)('The Queen has put you on trial for stealing tarts.');
     var guilty = false;
-    var witnesses = []; // 👉 FIXME ❌ - call getWitnesses here
+    var witnesses = getWitnesses(['The Mad Hatter', 'The March Hare', 'The Cheshire Cat', 'The White Rabbit',]); // 👉 FIXME ❌ - call getWitnesses here
     if (!witnesses || witnesses.length === 0) {
         (0, console_1.print)("No witnesses have come forward to defend you.");
         guilty = true;
@@ -34,6 +34,6 @@ function meetTheQueen() {
 }
 exports.meetTheQueen = meetTheQueen;
 // 👉 FIXME ❌ - this function needs writing to meet the above criteria
-function getWitnesses() {
-    return [];
+function getWitnesses(witnessNames) {
+    return witnessNames.map(function (n) { return { name: n, giveEvidence: function () { return 'Not Guilty'; } }; });
 }
