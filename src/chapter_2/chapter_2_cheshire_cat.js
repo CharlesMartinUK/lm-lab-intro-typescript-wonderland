@@ -24,6 +24,7 @@ function meetTheCheshireCat() {
     // 👉 FIXME ❌
     // 		Add some code here which allows you to progress *without* altering any other code in this file
     // 👉 END FIXME ❌
+    theCat.expression = '😁 Grin 😁';
     (0, console_1.print)("You can see ".concat(theCat.name, ". A wide ").concat(theCat.expression, " is hovering in the air."));
     if (theCat.expression === '😁 Grin 😁') {
         (0, console_1.print)("\uD83E\uDD73 The cat allows you to continue onwards. There is the sound of a party in the distance... \uD83E\uDD73 ");
