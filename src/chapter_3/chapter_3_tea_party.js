@@ -7,7 +7,17 @@ var console_1 = require("../ui/console");
 var DRINKS = ['Coffee', 'Tea', 'Water', 'Lemonade'];
 function setTheTable() {
     // 👉 FIXME ❌
-    return { seats: [] };
+    //return { seats: [] };
+    var table = { seats: [] };
+    for (var i = 0; i < 4; i++) {
+        table.seats.push({
+            drink: {
+                type: 'Tea',
+                poured: true
+            }
+        });
+    }
+    return table;
 }
 function attendATeaParty() {
     (0, console_1.clear)(true);
