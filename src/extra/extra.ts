@@ -118,7 +118,7 @@ function extra3() {
 	
 	clear(true)
 	
-	print("These function only accepts a certain type")
+	print("This function only accepts a certain type")
 
 	print( test(10).toString() )
 
