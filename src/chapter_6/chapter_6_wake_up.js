@@ -25,5 +25,13 @@ function wakeUp() {
 exports.wakeUp = wakeUp;
 function tryToWakeUp() {
     // 👉 FIXME ❌
-    return {};
+    return {
+        wake: {
+            wake: {
+                wake: {
+                    canWake: "Yes"
+                }
+            }
+        }
+    };
 }
